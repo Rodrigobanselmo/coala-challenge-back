@@ -7,7 +7,7 @@ WORKDIR /app
 RUN corepack enable
 
 COPY package*.json ./
-# COPY prisma ./prisma/
+COPY prisma ./prisma/
 
 RUN yarn install
 
@@ -25,6 +25,7 @@ WORKDIR /app
 
 COPY --from=builder /app/node_modules ./node_modules/
 COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/prisma ./prisma/
 COPY --from=builder /app/dist ./dist/
 
 EXPOSE 3333

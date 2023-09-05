@@ -9,14 +9,79 @@ generator client {
 }
 
 model User {
-  id               Int       @id @default(autoincrement())
-  email            String    @unique
+  id               Int              @id @default(autoincrement())
+  email            String           @unique
   name             String?
-  created_at       DateTime  @default(now())
-  updated_at       DateTime  @updatedAt
-  deleted_at       DateTime?
   photoUrl         String?
   googleExternalId String?
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+  deletedAt        DateTime?
+  userBooks        UsersBooks[]
+  userOfferts      UsersInterests[] @relation("TargetUser")
+  userInterests    UsersInterests[] @relation("InteretUser")
 
   @@index([email])
+  @@index([googleExternalId])
+}
+
+model Book {
+  id             Int              @id @default(autoincrement())
+  title          String           @unique
+  language       String?
+  smallThumbnail String?
+  thumbnail      String?
+  categories     String[]
+  authors        String[]
+  pageCount      Int?
+  googleId       String?
+  publishedAt    DateTime?
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+  deletedAt      DateTime?
+  usersBook      UsersBooks[]
+  userOfferts    UsersInterests[] @relation("OfferBook")
+  userInterests  UsersInterests[] @relation("InteretBook")
+
+  @@index([googleId])
+}
+
+model UsersBooks {
+  id            Int              @id @default(autoincrement())
+  book          Book             @relation(fields: [bookId], references: [id])
+  bookId        Int
+  user          User             @relation(fields: [userId], references: [id])
+  userId        Int
+  createdAt     DateTime         @default(now())
+  updatedAt     DateTime         @updatedAt
+  deletedAt     DateTime?
+  usersInterest UsersInterests[]
+
+  @@unique([bookId, userId])
+}
+
+model UsersInterests {
+  id             Int  @id @default(autoincrement())
+  targetUser     User @relation("TargetUser", fields: [targetUserId], references: [id])
+  targetUserId   Int
+  interestBook   Book @relation("InteretBook", fields: [interestBookId], references: [id])
+  interestBookId Int
+
+  interetUser   User @relation("InteretUser", fields: [interetUserId], references: [id])
+  interetUserId Int
+  offerBook     Book @relation("OfferBook", fields: [offerBookId], references: [id])
+  offerBookId   Int
+
+  userBookInterest UsersBooks @relation(fields: [interestBookId, targetUserId], references: [bookId, userId])
+
+  status    StatusEnum @default(PENDING)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  deletedAt DateTime?
+}
+
+enum StatusEnum {
+  DONE
+  PENDING
+  CANCELED
 }
