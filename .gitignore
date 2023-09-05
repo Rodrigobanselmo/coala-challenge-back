@@ -37,3 +37,16 @@ lerna-debug.log*
 # Secrets
 .env
 main.prod.tf
+*.tfstate
+*.tfstate.backup
+*.tfvars
+terraform.tfstate.d/
+.terraform/
+*.pem
+*.key
+*.cert
+*.password
+*.secret
+coala-key
+dynamic_inventory.ini
+main.tf

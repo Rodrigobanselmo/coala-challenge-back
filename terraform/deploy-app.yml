@@ -1,0 +1,46 @@
+---
+- hosts: ec2_instances
+  become: true
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install Docker dependencies
+      apt:
+        name:
+          - docker.io
+          - python3-pip
+        state: present
+
+    - name: Install Docker Compose
+      command: sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose
+
+    - name: Execute Binary Docker Compose
+      command: sudo chmod +x /usr/local/bin/docker-compose
+
+    - name: Clone Next.js app repository
+      git:
+        repo: https://github.com/Rodrigobanselmo/coala-challenge-front.git
+        dest: /var/www/html/app
+
+    - name: Clone Node.js api repository
+      git:
+        repo: https://github.com/Rodrigobanselmo/coala-challenge-back.git
+        dest: /var/www/html/api
+
+    - name: Build Docker image Next js
+      command: docker build -t next-app /var/www/html/app
+
+    - name: Run Docker container Next js
+      command: docker run -d -p 3000:3000 --name next-app-container next-app
+
+    - name: Build Docker compose start
+      command: docker-compose -f /var/www/html/api/docker-compose.yml up -d
+      environment:
+        DATABASE_USER: admin
+        DATABASE_PASSWORD: password
+        DATABASE_NAME: postgres
+        DATABASE_PORT: 5432
+        DATABASE_HOST: localhost
+        DATABASE_URL: "postgresql://admin:password@localhost:5432/postgres?schema=public&pool_timeout=0"
