@@ -1,7 +1,12 @@
-import { UserCredential } from 'firebase/auth';
-
 interface IFirebaseProvider {
-  validateGoogleToken(token: string): Promise<UserCredential>;
+  validateGoogleToken(token: string): Promise<{
+    user: {
+      email: string;
+      displayName: string;
+      photoURL: string;
+      uid: string;
+    };
+  }>;
 }
 
 export { IFirebaseProvider };

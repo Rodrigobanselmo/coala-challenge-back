@@ -8,12 +8,12 @@ import { GoogleLoginUseCase } from '../../useCases/google-login/google-login';
 @ApiTags('Authentication')
 @Controller()
 export class AuthController {
-  constructor(private readonly verifyGoogleLoginService: GoogleLoginUseCase) {}
+  constructor(private readonly googleLoginUseCase: GoogleLoginUseCase) {}
 
   @Public()
   @Post('session/google')
   async google(@Body() loginUserDto: LoginGoogleUserDto) {
-    const user = await this.verifyGoogleLoginService.execute(loginUserDto);
+    const user = await this.googleLoginUseCase.execute(loginUserDto);
 
     return user;
   }

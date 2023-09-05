@@ -1,60 +1,64 @@
-// import { Test, TestingModule } from '@nestjs/testing';
-// import { DeleteAllExpiredService } from '../../services/session/delete-all-expired/delete-all-expired.service';
-// import { RefreshTokenService } from '../../services/session/refresh-token/refresh-token.service';
-// import { SendForgotPassMailService } from '../../services/session/send-forgot-pass-mail/send-forgot-pass-mail.service';
-// import { SessionService } from '../../services/session/session/session.service';
-// import { AuthController } from './auth.controller';
+import { Test, TestingModule } from '@nestjs/testing';
+import { AuthController } from './auth.controller';
+import { GoogleLoginUseCase } from '../../useCases/google-login/google-login';
+import { LoginGoogleUserDto } from '../../dto/login-user.dto';
+import { UserEntity } from '../../entities/user.entity';
 
-// describe('AuthController', () => {
-//   let controller: AuthController;
+describe('AuthController', () => {
+  let authController: AuthController;
+  let googleLoginUseCase: GoogleLoginUseCase;
 
-//   beforeEach(async () => {
-//     const module: TestingModule = await Test.createTestingModule({
-//       controllers: [AuthController],
-//       providers: [
-//         {
-//           provide: RefreshTokenService,
-//           useValue: {
-//             execute: jest.fn().mockResolvedValue({}),
-//           },
-//         },
-//         {
-//           provide: SessionService,
-//           useValue: {
-//             execute: jest.fn().mockResolvedValue({}),
-//           },
-//         },
-//         {
-//           provide: DeleteAllExpiredService,
-//           useValue: {
-//             execute: jest.fn().mockResolvedValue({}),
-//           },
-//         },
-//         {
-//           provide: SendForgotPassMailService,
-//           useValue: {
-//             execute: jest.fn().mockResolvedValue({}),
-//           },
-//         },
-//       ],
-//     }).compile();
+  beforeEach(async () => {
+    const module: TestingModule = await Test.createTestingModule({
+      controllers: [AuthController],
+      providers: [
+        {
+          provide: GoogleLoginUseCase,
+          useValue: {
+            execute: jest.fn(),
+          },
+        },
+      ],
+    }).compile();
 
-//     controller = module.get<AuthController>(AuthController);
-//   });
+    authController = module.get<AuthController>(AuthController);
+    googleLoginUseCase = module.get<GoogleLoginUseCase>(GoogleLoginUseCase);
+  });
 
-//   it('should be defined', () => {
-//     expect(controller).toBeDefined();
-//   });
+  describe('google', () => {
+    it('should be defined', () => {
+      expect(authController).toBeDefined();
+    });
 
-//   it('should authenticate user session', async () => {
-//     expect(await controller.session({} as any)).toEqual({});
-//   });
+    const mockLoginUserDto = new LoginGoogleUserDto();
+    const mockUser = new UserEntity({
+      id: 1,
+      name: 'mockName',
+      email: 'mockEmail',
+    });
 
-//   it('should refresh user token', async () => {
-//     expect(await controller.refresh({} as any)).toEqual({});
-//   });
+    it('should call googleLoginService with the correct parameters', async () => {
+      const executeSpy = jest
+        .spyOn(googleLoginUseCase, 'execute')
+        .mockResolvedValue(mockUser);
 
-//   it('should delete all expired tokens', async () => {
-//     expect(await controller.deleteAll()).toEqual({});
-//   });
-// });
+      await authController.google(mockLoginUserDto);
+
+      expect(executeSpy).toHaveBeenCalledWith(mockLoginUserDto);
+    });
+
+    it('should return the user returned by googleLoginService', async () => {
+      jest.spyOn(googleLoginUseCase, 'execute').mockResolvedValue(mockUser);
+
+      const result = await authController.google(mockLoginUserDto);
+
+      expect(result).toEqual(mockUser);
+    });
+
+    it('should have the Public decorator', () => {
+      const metadata = Reflect.getMetadata('isPublic', authController.google);
+
+      expect(metadata).toBe(true);
+    });
+  });
+});
