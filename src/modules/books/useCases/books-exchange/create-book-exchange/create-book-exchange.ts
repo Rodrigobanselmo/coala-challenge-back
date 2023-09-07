@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { BadRequestException, Injectable } from '@nestjs/common';
 import { ErrorEnum } from '../../../../../shared/constants/enums/errorMessage';
 import { UserPayloadDto } from '../../../../../shared/dto/user-payload.dto';
 import { IUsersBookExchangeRepository } from '../../../repositories/models/IUsersBookExchangeRepository.types';
@@ -20,11 +20,10 @@ export class CreateBookExchangeUseCase {
       await this.booksExchangeRepository.findByUsersBooksIds({
         interestBookId: createBookDto.interestBookId,
         interetUserId: user.id,
-        targetUserId: createBookDto.targetUserId,
       });
 
     if (exchangeAlreadyExists) {
-      throw new Error(ErrorEnum.EXCHANGE_EXISTS);
+      throw new BadRequestException(ErrorEnum.EXCHANGE_EXISTS);
     }
 
     const userBooksFound = await this.usersBooksRepository.findAvailableBooks(
@@ -33,7 +32,7 @@ export class CreateBookExchangeUseCase {
     );
 
     if (!userBooksFound.length) {
-      throw new Error(ErrorEnum.BOOK_NOT_FOUND);
+      throw new BadRequestException(ErrorEnum.BOOK_NOT_FOUND);
     }
 
     await this.booksExchangeRepository.createMany(
