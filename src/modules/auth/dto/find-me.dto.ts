@@ -1,6 +1,6 @@
 import { IsString } from 'class-validator';
 
-export class LoginGoogleUserDto {
+export class FindUserByIdDto {
   @IsString()
-  readonly token: string;
+  readonly id: string;
 }

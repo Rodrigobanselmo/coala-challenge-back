@@ -4,7 +4,7 @@ import { User } from '.prisma/client';
 
 export class UserEntity implements User {
   @ApiProperty({ description: 'The id of the User' })
-  id: number;
+  id: string;
 
   @ApiProperty({ description: 'The email of the User' })
   email: string;
@@ -13,19 +13,16 @@ export class UserEntity implements User {
   name: string;
 
   @ApiProperty({ description: 'The last time that the User was updated' })
-  updated_at: Date;
+  updatedAt: Date;
 
   @ApiProperty({ description: 'The creation date of the User account' })
-  created_at: Date;
+  createdAt: Date;
 
   @ApiProperty({ description: 'The deleted date of data' })
-  deleted_at: Date | null;
+  deletedAt: Date | null;
 
   @ApiProperty({ description: 'The photo of the User' })
-  photoUrl: string;
-
-  @ApiProperty({ description: 'The google external id of the User' })
-  googleExternalId: string;
+  photoUrl: string | null;
 
   constructor(partial: Partial<UserEntity>) {
     Object.assign(this, partial);

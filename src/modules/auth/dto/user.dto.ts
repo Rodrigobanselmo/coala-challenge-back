@@ -7,7 +7,7 @@ export class UserDto {
 
   @IsString()
   @IsOptional()
-  readonly googleExternalId: string;
+  readonly id: string;
 
   @IsString()
   @IsOptional()
