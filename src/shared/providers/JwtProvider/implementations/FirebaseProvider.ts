@@ -6,8 +6,9 @@ import {
   GoogleAuthProvider,
   signInWithCredential,
 } from 'firebase/auth';
+import { IJwtProvider } from '../models/IJwtProvider.types';
 
-class FirebaseProvider {
+class FirebaseProvider implements IJwtProvider {
   private firebaseApp: FirebaseApp;
   private firebaseAuth: Auth;
   private firebaseConfig: {
@@ -36,18 +37,17 @@ class FirebaseProvider {
     this.firebaseAuth.languageCode = 'pt-br';
   }
 
-  async validateGoogleToken(token: string) {
+  async validateToken(token: string) {
     const credential = GoogleAuthProvider.credential(token);
     const result = await signInWithCredential(
       this.firebaseAuth,
       credential,
     ).catch((error) => {
       const errorMessage = error.message;
-
       throw new InternalServerErrorException(errorMessage);
     });
 
-    return result;
+    return result.user;
   }
 }
 
