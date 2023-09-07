@@ -1,0 +1,2713 @@
+{
+	"kind": "books#volumes",
+	"totalItems": 704,
+	"items": [
+		{
+			"kind": "books#volume",
+			"id": "5PiMAAAAIAAJ",
+			"etag": "C9/KF7wBrVs",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/5PiMAAAAIAAJ",
+			"volumeInfo": {
+				"title": "Acompanhamento da situação agropecuária do Paraná",
+				"authors": [
+					"Paraná (Brazil : State). Comissão Estadual de Planejamento Agrícola"
+				],
+				"publishedDate": "1986",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "STANFORD:36105015260529"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 350,
+				"printType": "BOOK",
+				"categories": [
+					"Agriculture"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.3.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=5PiMAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=5PiMAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "pt",
+				"previewLink": "http://books.google.com.br/books?id=5PiMAAAAIAAJ&q=ro&dq=ro&hl=&cd=1&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=5PiMAAAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Acompanhamento_da_situa%C3%A7%C3%A3o_agropecu%C3%A1r.html?hl=&id=5PiMAAAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=5PiMAAAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "AL С te Cl. 00 IO <b>ro</b> CM <b>ro</b> Ю LO CM o g &lt;í(OONiO Г» О) kO <b>ro</b> СЧ| CM C4J 041 <b>ro</b> ГО <b>ro</b> 1— «a- c\\j см CM LT) 00 kO Р». r*. LO . o 00 lo en ko 00 r-~ C4J r». CM о LO kO en 1 — СЧ1 00 lo P-. <b>ro</b> en &#39; — го LO &#39; — 00 00 r- 0 □— &quot;* 00 см CM CM&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "sC-VIcGF-t0C",
+			"etag": "CSa/iPXxDH8",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/sC-VIcGF-t0C",
+			"volumeInfo": {
+				"title": "Dr. Ro's Ten Secrets to Livin' Healthy",
+				"subtitle": "A Nationally Renowned Nutritionist and NPR Contributor Shows You How to Look Great, Feel Better, and Live Long by Eating Right",
+				"authors": [
+					"Rovenia Brock, Ph.D."
+				],
+				"publisher": "Bantam",
+				"publishedDate": "2008-12-10",
+				"description": "In this one-of-a-kind book, Dr. Rovenia M. Brock—known as Dr. Ro™ to fans of Black Entertainment Television’s Heart & Soul—reveals practical, satisfying ways for African American women to eat healthy, get fit, and overcome weight problems and the health risks that accompany them. From the “Big Ten” myths about miracle weight-loss diets to how eating the right foods can help you live longer and why soul food (if prepared properly) really can be good for you, Dr. Ro shows how many serious illnesses can be largely prevented—and even reversed. And you don’t need Oprah’s salary to do it. Using her own inspiring story and those of many other women as well, Dr. Ro discusses the health, fitness, and even cultural issues that are unique to black women, and outlines a diet and nutrition program to fit every lifestyle.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780307483980"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "0307483983"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": true
+				},
+				"pageCount": 464,
+				"printType": "BOOK",
+				"categories": [
+					"Health & Fitness"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "1.3.2.0.preview.3",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=sC-VIcGF-t0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=sC-VIcGF-t0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=sC-VIcGF-t0C&pg=PP3&dq=ro&hl=&cd=2&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=sC-VIcGF-t0C&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=sC-VIcGF-t0C"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "FOR_SALE",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 83.53,
+					"currencyCode": "BRL"
+				},
+				"retailPrice": {
+					"amount": 83.53,
+					"currencyCode": "BRL"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=sC-VIcGF-t0C&rdid=book-sC-VIcGF-t0C&rdot=1&source=gbs_api",
+				"offers": [
+					{
+						"finskyOfferType": 1,
+						"listPrice": {
+							"amountInMicros": 83530000,
+							"currencyCode": "BRL"
+						},
+						"retailPrice": {
+							"amountInMicros": 83530000,
+							"currencyCode": "BRL"
+						},
+						"giftable": true
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com.br/books/download/Dr_Ro_s_Ten_Secrets_to_Livin_Healthy-sample-epub.acsm?id=sC-VIcGF-t0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com.br/books/download/Dr_Ro_s_Ten_Secrets_to_Livin_Healthy-sample-pdf.acsm?id=sC-VIcGF-t0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=sC-VIcGF-t0C&hl=&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Dr. <b>Ro&#39;s</b> Ten Secrets to Livin&#39; Healthy “Praise to Dr. <b>Ro</b> for offering us such a clear process for caring for our body temples. We need to know what works and what doesn&#39;t, what to do and how we must do it to get results."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "KQNCygAACAAJ",
+			"etag": "7Xe8F5Mz/pk",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/KQNCygAACAAJ",
+			"volumeInfo": {
+				"title": "Zoneamento agro-ecologico de Rondonia",
+				"authors": [
+					"RO). COMISSAO ESTADUAL DE PLANEJAMENTO AGRICOLA (Porto Velho"
+				],
+				"publishedDate": "1983",
+				"description": "Localizacao geografica. Estrutura espacial. Clima. Relevo. Hidrografia. Solos. Vegetacao.",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "OCLC:709343102"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 242,
+				"printType": "BOOK",
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "preview-1.0.0",
+				"language": "pt-BR",
+				"previewLink": "http://books.google.com.br/books?id=KQNCygAACAAJ&dq=ro&hl=&cd=3&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=KQNCygAACAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Zoneamento_agro_ecologico_de_Rondonia.html?hl=&id=KQNCygAACAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=KQNCygAACAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Localizacao geografica. Estrutura espacial. Clima. Relevo. Hidrografia. Solos. Vegetacao."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "NRoyzZ6WohAC",
+			"etag": "UeDWjEHQkhY",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/NRoyzZ6WohAC",
+			"volumeInfo": {
+				"title": "Treatability of Perchlorate-Containing Water by RO, NF and UF Membranes",
+				"authors": [
+					"Gary Amy",
+					"Yeomin Yoon",
+					"J. Yoon",
+					"M. Song",
+					"J. Pellegrino",
+					"S. Liang",
+					"K. Scott",
+					"J. Min"
+				],
+				"publisher": "IWA Publishing",
+				"publishedDate": "2004-01-01",
+				"description": "The California Department of Health Services has established a provisional action level of 4 ug/L for perchlorate in drinking water due to its toxicity. There are 14 states in the United States that have thus far confirmed perchlorate in ground or surface waters. Ongoing research is investigating other treatment technologies for perchlorate rejection, including biological degradation, ion exchange, and activated carbon. The major objectives of this project were to: determine the removal/rejection of perchlorate (ClO4-) ion by high pressure membranes, including reverse osmosis (RO), nanofiltration (NF), and tight ultrafiltration (UF); evaluate the effects of water quality parameters, pH, ionic strength (conductivity), and co-ions and counter-ions, on process performance; and study membrane operating conditions (e.g., recovery) on perchlorate rejection and potential scaling. Water quality is a determining factor in applying high pressure membranes to perchlorate rejection. Effective rejection of perchlorate by RO, NF, and tight UF has been demonstrated according to two rejection mechanisms: steric (size) versus electrostatic (charge) exclusion. Based on its size (hydrodynamic radius), perchlorate is selectively rejected over chloride through size exclusion; however, based on charge exclusion, sulfate is selectively rejected over perchlorate. Originally published by AwwaRF for its subscribers in 2003. This publication can also be purchased and downloaded via Pay Per View on Water Intelligence Online",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9781843398622"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "1843398621"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": true
+				},
+				"pageCount": 248,
+				"printType": "BOOK",
+				"categories": [
+					"Science"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.1.0.0.preview.1",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=NRoyzZ6WohAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=NRoyzZ6WohAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=NRoyzZ6WohAC&pg=PA181&dq=ro&hl=&cd=4&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=NRoyzZ6WohAC&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Treatability_of_Perchlorate_Containing_W.html?hl=&id=NRoyzZ6WohAC"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com.br/books/download/Treatability_of_Perchlorate_Containing_W-sample-pdf.acsm?id=NRoyzZ6WohAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=NRoyzZ6WohAC&hl=&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "One <b>reverse osmosis</b> (<b>RO</b>) membrane (LFC-1, Hydranautics, Oceanside, CA), two nanofiltration (NF) membranes (ESNA, Hydranautics, CA, and TFC-S, Koch Membrane Systems, Inc. Wilmington, MA) and one ultrafiltration (UF) membrane (GM Desal,&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "VSZyAAAAIAAJ",
+			"etag": "Aw/NE0SdgUY",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/VSZyAAAAIAAJ",
+			"volumeInfo": {
+				"title": "Communicationes Instituti Forestalis Fenniae",
+				"publishedDate": "1982",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UCAL:B4567819"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 480,
+				"printType": "BOOK",
+				"categories": [
+					"Forests and forestry"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.4.3.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=VSZyAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=VSZyAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=VSZyAAAAIAAJ&q=ro&dq=ro&hl=&cd=5&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=VSZyAAAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Communicationes_Instituti_Forestalis_Fen.html?hl=&id=VSZyAAAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=VSZyAAAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "&lt;Ti O (N O O O I© i— T-VOVO VO 10 10 o in oo oo oo m in minin <b>ro</b> T (N o o oo^moio 10 <b>ro</b> *r ^* <b>ro</b> tN ^•cn^r Tr-i/i o&gt; <b>ro</b> i— »- r- n (M cn <b>ro ro</b> o m <b>ro</b> cn <b>ro ro</b> o i— t- cn cn &#39;r in in *r <b>ro</b> ^J* r— i — fN CO ^1 f) f r- l/l 0\\ n «- i-^Moin&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "o7xPAAAAYAAJ",
+			"etag": "RwRnB/Bb9rU",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/o7xPAAAAYAAJ",
+			"volumeInfo": {
+				"title": "ERC.",
+				"subtitle": "Completion Report",
+				"publishedDate": "1968",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "CORNELL:31924096340827"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 126,
+				"printType": "BOOK",
+				"categories": [
+					"Water"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.1.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=o7xPAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=o7xPAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=o7xPAAAAYAAJ&q=ro&dq=ro&hl=&cd=6&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=o7xPAAAAYAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/ERC.html?hl=&id=o7xPAAAAYAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=o7xPAAAAYAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "O 13 000&gt;0000000000000000&lt;D«-&lt;0 X oooooooooooooooooooooo oooooooooooooooooooooo a «o&lt;0inmminininmmtnmmmmmtnm«-«&lt;-i~« i/3 <b>ro ro ro ro ro ro ro ro ro ro</b> c*&gt; <b>ro ro ro ro ro ro ro ro</b> K» N- oooooooooooooooooooooo 3 no«N«4inMnm«oo« «o <b>ro</b> cm&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "64JZAAAAYAAJ",
+			"etag": "hb4V7oS2l6w",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/64JZAAAAYAAJ",
+			"volumeInfo": {
+				"title": "Trends",
+				"publishedDate": "1984",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "CORNELL:31924054226109"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 394,
+				"printType": "BOOK",
+				"categories": [
+					"Labor supply"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "1.3.1.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=64JZAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=64JZAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=64JZAAAAYAAJ&q=ro&dq=ro&hl=&cd=7&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=64JZAAAAYAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Trends.html?hl=&id=64JZAAAAYAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=64JZAAAAYAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "cc X <b>ro</b> — 0. VD VO X Vji 03 <b>ro</b> — &lt;— -D X — -J IV — CC X * o vj CO • CTsVTi OA CO 00~-JVDOro---40 \\ji O ^ O 03 <b>ro</b> + + I 1 + + I + + <b>ro</b> i— 1 VJ VO &gt;— CJAVO O —J □w ••••••••• CD Ivo rovut— ocorovoro M WO t— --3 <b>ro ro</b> --jvo fO VP m\\jJ VJI&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "XViGAAAAMAAJ",
+			"etag": "YFegfqNVcdg",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/XViGAAAAMAAJ",
+			"volumeInfo": {
+				"title": "The Perfect Tie",
+				"subtitle": "The True Story of the 2000 Presidential Election",
+				"authors": [
+					"James W. Ceaser",
+					"Andrew Busch"
+				],
+				"publishedDate": "2001",
+				"description": "Studies the 2000 national election and its implications on American politics and society, discussing the election process, campaigns, policy issues, and electoral reform.",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UOM:39015050500894"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 306,
+				"printType": "BOOK",
+				"categories": [
+					"Presidents"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.1.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=XViGAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=XViGAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=XViGAAAAMAAJ&q=ro&dq=ro&hl=&cd=8&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=XViGAAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/The_Perfect_Tie.html?hl=&id=XViGAAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=XViGAAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "N r- O N N C0 m 03 O I— <b>rO</b> CT1 i— o cn <b>ro</b> m 1t O O O O o o o ^- CO CN C01 <b>ro</b> CO r-s in o 03 cn 03 <b>ro</b> 03 in <b>ro</b> d d d d d &lt;r cn m 1* 1o o cji cn CO fN O fN rt ^- m oo m cn 01 <b>ro</b> CO 01 <b>ro</b> f CN O O <b>ro</b> n in n in n in. m <b>ro</b> 03 In i— cn <b>ro</b>&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "M8bsAAAAMAAJ",
+			"etag": "NGEz2wMo0yE",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/M8bsAAAAMAAJ",
+			"volumeInfo": {
+				"title": "Liberalization and Industrial Transformation",
+				"subtitle": "Sri Lanka in International Perspective",
+				"authors": [
+					"Prema-chandra Athukorala",
+					"Sarath Rajapatirana"
+				],
+				"publisher": "Oxford University Press, USA",
+				"publishedDate": "2000",
+				"description": "This is an analytical study of Sri Lanka's experience with economic reforms. Describing reforms since 1977, the authors use detailed empirical analysis to show how the country's rapid progress in industrialization and employment generation can be attributed to reforms.",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UOM:39015051960907"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 280,
+				"printType": "BOOK",
+				"categories": [
+					"Exports"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "1.4.1.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=M8bsAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=M8bsAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=M8bsAAAAMAAJ&q=ro&dq=ro&hl=&cd=9&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=M8bsAAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Liberalization_and_Industrial_Transforma.html?hl=&id=M8bsAAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=M8bsAAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "ex =0 in ex <b>ro</b> On in *n On ff 1 2 3 u C 4P 60 £ .a -2 + <b>ro</b> + rs a + be C 3 a- + 00 &lt;N « a + 2 g&quot; a. O u bo c C O 89i C 3 H rS &lt;s rs &lt;N 3 F £r-s 0 =5 S 1 rs <b>ro</b> &lt;s rs rs rs c o 0 <b>ro</b> o K On R On R On R On R."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "C45ZAAAAYAAJ",
+			"etag": "mWZgCoKcnTU",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/C45ZAAAAYAAJ",
+			"volumeInfo": {
+				"title": "Survey of Employment and Earnings",
+				"publishedDate": "1968",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "CORNELL:31924071631067"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 188,
+				"printType": "BOOK",
+				"categories": [
+					"Labor supply"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.6.8.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=C45ZAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=C45ZAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=C45ZAAAAYAAJ&q=ro&dq=ro&hl=&cd=10&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=C45ZAAAAYAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Survey_of_Employment_and_Earnings.html?hl=&id=C45ZAAAAYAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=C45ZAAAAYAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "co -P O CO m <b>ro</b> « • • co vo m r-t m c~- H H CM rH rH int— rH <b>ro</b> • • • • cm vo vo m rH *± VO CM co in ^j- co rH CM ON <b>rO ro ro</b> CO <b>rO</b> O O O o no 13 Hi •H G? -H in rH VO • • • O ON ON CM ON VO VO • • • • O CM <b>rO</b> VO tJ- in <b>ro</b> CM rH CM <b>rO</b> CM&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "NJDCAAAAIAAJ",
+			"etag": "iTMC5wHn7WM",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/NJDCAAAAIAAJ",
+			"volumeInfo": {
+				"title": "Comprehensive Framework Study: California Region",
+				"subtitle": "Main Report [and Appendices 1-18]",
+				"authors": [
+					"California Region Framework Study Committee"
+				],
+				"publishedDate": "1971",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UCSC:32106005376014"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 228,
+				"printType": "BOOK",
+				"categories": [
+					"Water resources development"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.4.5.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=NJDCAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=NJDCAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=NJDCAAAAIAAJ&q=ro&dq=ro&hl=&cd=11&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=NJDCAAAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Comprehensive_Framework_Study_California.html?hl=&id=NJDCAAAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=NJDCAAAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "t-00 &#39; UN rONHS &#39; -H NO t- LTN 00 CM H cm rono h t--oo5 oo m On c\\j 0N PO ON UN <b>ro</b> On nom CM .* CM NO NO CM UN CM ITN On Q H H <b>ro</b> C 00 - CM - &#39; &#39; CM CM □»/MAS \\coc0 rH r-IOQ <b>ro</b> &#39; UN-* -* m NO CM rH &#39; NO r~ On <b>ro</b> &quot;<b>ro</b> &#39; 8n m CM -S CM On&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "jSFOAAAAMAAJ",
+			"etag": "yhP99v6kmLk",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/jSFOAAAAMAAJ",
+			"volumeInfo": {
+				"title": "Report",
+				"authors": [
+					"Montana. State Board of Equalization"
+				],
+				"publishedDate": "1940",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UOM:39015068548075"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 1200,
+				"printType": "BOOK",
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "1.7.3.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=jSFOAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=jSFOAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=jSFOAAAAMAAJ&q=ro&dq=ro&hl=&cd=12&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=jSFOAAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Report.html?hl=&id=jSFOAAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=jSFOAAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "eh a **f; o 2 ,— « ^} &lt;0 S « N O -O ^| N &lt;OON&quot;)in IT) S O N N O N &lt; &quot;O ^ N N N N N O go 0&gt; H o □CO &gt;U -o 1 a d «3 B &lt;&quot;* 00 N - O N O o o rs rs cn co m n O O CO MO t o — — &lt;o &lt;o cn cn in <b>ro</b> in » tOO&gt;N m — rs m co oo in oo&quot; cn o O CN CN&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "lsVFAQAAIAAJ",
+			"etag": "67TsypIxvZ8",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/lsVFAQAAIAAJ",
+			"volumeInfo": {
+				"title": "Statewide Survey of Aquatic Ecosystem Chemistry",
+				"publishedDate": "1985",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "STANFORD:36105129151457"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 82,
+				"printType": "BOOK",
+				"categories": [
+					"Water"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.3.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=lsVFAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=lsVFAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=lsVFAQAAIAAJ&q=ro&dq=ro&hl=&cd=13&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=lsVFAQAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Statewide_Survey_of_Aquatic_Ecosystem_Ch.html?hl=&id=lsVFAQAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=lsVFAQAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "3 j B. vo <b>ro ro ro</b> ff <b>ro ro</b> SB 0 &#39; o o CN o ^. CN <b>ro</b> vo vo &#39; 0 TT <b>ro ro ro</b> m o o 00 o in 0 &#39; 00 u CN <b>ro</b> (N 00 VO rH <b>ro</b> m ff 0 rH CN CN <b>ro</b> 0 <b>ro</b> cn 0 0 II <b>ro</b> CN o o (8 CN &quot;.a Tf CN I CN <b>ro</b> o o 00 00 &quot;* &#39; &#39; o oi ioi <b>ro</b> 1 1 1 vo en 00 CN vo&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "XIjnAAAAMAAJ",
+			"etag": "u1dh6xj9S7Q",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/XIjnAAAAMAAJ",
+			"volumeInfo": {
+				"title": "Forestry Publication",
+				"authors": [
+					"Ohio Agricultural Experiment Station"
+				],
+				"publishedDate": "1940",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UOM:39015006876042"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 400,
+				"printType": "BOOK",
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "2.4.4.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=XIjnAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=XIjnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=XIjnAAAAMAAJ&q=ro&dq=ro&hl=&cd=14&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=XIjnAAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Forestry_Publication.html?hl=&id=XIjnAAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=XIjnAAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "IS 8 09 s 09 On pr- K u o M -0 -J <b>ro</b> VN p- QN NO H P&quot; On i-1 — 0 co ft o 3 1 VJI vn VJI b~ vn ~4 H -v) H •p- VJI o <b>ro</b> VJI H&gt; VJI 01 a&gt; o CD p- co x&gt; PD M 01 <b>ro ro ro</b> » • □p- ON • co CO VJI 00 CI • • • • • • • □ • c sb --3 H <b>ro</b> vn O ON&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "BDaxAAAAIAAJ",
+			"etag": "TaJINV/1TLg",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/BDaxAAAAIAAJ",
+			"volumeInfo": {
+				"title": "Economic Survey of Singapore",
+				"publishedDate": "2006",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "STANFORD:36105123018066"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 564,
+				"printType": "BOOK",
+				"categories": [
+					"Singapore"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.19.11.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=BDaxAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=BDaxAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=BDaxAAAAIAAJ&q=ro&dq=ro&hl=&cd=15&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=BDaxAAAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Economic_Survey_of_Singapore.html?hl=&id=BDaxAAAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=BDaxAAAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "io 8 *□ IN 1n O o rsi &gt; Q O Q C — o o rsi <b>ro</b> O O o o 0 t: Q. &lt; lv 1 a E D. o E Q   o 1 &quot;—i Q r? o t &lt;9 3 E o u 00 o o T3 C | Oi ?Jd O ^ cu cr I- 1 5 5 S. O O rD CL ^ ss E 5 C -D 0 c CD 5 c; 00 0 V * oj CD CL □*- £ £r 2 £ V o 5 &lt; CT JJ&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "7YGmCgAAQBAJ",
+			"etag": "QAPcm3MvDNw",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/7YGmCgAAQBAJ",
+			"volumeInfo": {
+				"title": "NIVAC Bundle 6: Gospels, Acts",
+				"authors": [
+					"Michael J. Wilkins",
+					"David E. Garland",
+					"Darrell L. Bock",
+					"Gary M. Burge",
+					"Ajith Fernando"
+				],
+				"publisher": "Zondervan Academic",
+				"publishedDate": "2015-11-03",
+				"description": "The NIV Application Commentary helps you communicate and apply biblical text effectively in today’' context. To bring the ancient messages of the Bible into today's world, each passage is treated in three sections: Original Meaning. Concise exegesis to help readers understand the original meaning of the biblical text in its historical, literary, and cultural context. Bridging Contexts. A bridge between the world of the Bible and the world of today, built by discerning what is timeless in the timely pages of the Bible. Contemporary Significance. This section identifies comparable situations to those faced in the Bible and explores relevant application of the biblical messages. The author alerts the readers of problems they may encounter when seeking to apply the passage and helps them think through the issues involved. This unique, award-winning commentary is the ideal resource for today's preachers, teachers, and serious students of the Bible, giving them the tools, ideas, and insights they need to communicate God's Word with the same powerful impact it had when it was first written.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780310530077"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "0310530075"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": false
+				},
+				"pageCount": 3574,
+				"printType": "BOOK",
+				"categories": [
+					"Religion"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "1.9.7.0.preview.2",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=7YGmCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=7YGmCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=7YGmCgAAQBAJ&pg=PT3766&dq=ro&hl=&cd=16&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=7YGmCgAAQBAJ&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=7YGmCgAAQBAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "FOR_SALE",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 369.43,
+					"currencyCode": "BRL"
+				},
+				"retailPrice": {
+					"amount": 369.43,
+					"currencyCode": "BRL"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=7YGmCgAAQBAJ&rdid=book-7YGmCgAAQBAJ&rdot=1&source=gbs_api",
+				"offers": [
+					{
+						"finskyOfferType": 1,
+						"listPrice": {
+							"amountInMicros": 369430000,
+							"currencyCode": "BRL"
+						},
+						"retailPrice": {
+							"amountInMicros": 369430000,
+							"currencyCode": "BRL"
+						},
+						"giftable": true
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com.br/books/download/NIVAC_Bundle_6_Gospels_Acts-sample-epub.acsm?id=7YGmCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=7YGmCgAAQBAJ&hl=&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "<b>Ro</b> 5:20; 252 <b>Ro</b> 8; 90,263 <b>Ro</b> 8:14; 79, 436 <b>Ro</b> 8:15; 122 <b>Ro</b> 8:16; 276 <b>Ro</b> 8:17–39; 158, 264 <b>Ro</b> 8:17; 403, 409 <b>Ro</b> 8:18–25; 94, 220 <b>Ro</b> 8:20; 500, 560 <b>Ro</b> 8:23; 560 <b>Ro</b> 8:28; 83, 94, 252, 313, 617 <b>Ro</b> 8:31; 170 <b>Ro</b> 8:32; 456 <b>Ro</b> 8:37; 220 <b>Ro</b> 9–11&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "voVXAAAAYAAJ",
+			"etag": "Hfkp2JptelY",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/voVXAAAAYAAJ",
+			"volumeInfo": {
+				"title": "The Full Employment Unemployment Rate",
+				"subtitle": "Changes in Tennessee, the South, and the U.S., 1961-1983",
+				"authors": [
+					"Kevin James Murphy"
+				],
+				"publishedDate": "1985",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "CORNELL:31924055827046"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 84,
+				"printType": "BOOK",
+				"categories": [
+					"Frictional unemployment"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.3.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=voVXAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=voVXAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=voVXAAAAYAAJ&q=ro&dq=ro&hl=&cd=17&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=voVXAAAAYAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/The_Full_Employment_Unemployment_Rate.html?hl=&id=voVXAAAAYAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=voVXAAAAYAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "«3- <b>ro</b> cm tH o m oo r~- vo in <b>ro</b> m H o ji oo rv to m mHo in m in m m ^j- * ^- ^- «3- «* <b>ro ro ro ro ro ro ro ro ro</b> csi*na&gt;i-i <b>ro</b> ix5 oo o <b>ro</b> m s ai n * idoOi-tcom oo o cm 3: | cm cm cm cm <b>ro ro ro ro</b> «ar&quot; »a- «j- *r m in in in id id in&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "M1lLAQAAIAAJ",
+			"etag": "IF8BOoG0NhI",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/M1lLAQAAIAAJ",
+			"volumeInfo": {
+				"title": "Report of the Industrial Commissioner to the Cleaning and Dyeing Wage Board Relating to Wages and Other Conditions of Employment of Women and Minors in the Cleaning and Dyeing Industry",
+				"subtitle": "New York State",
+				"authors": [
+					"New York (State). Division of Industrial Relations, Women in Industry, and Minimum Wage"
+				],
+				"publishedDate": "1938",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "STANFORD:36105047315713"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 308,
+				"printType": "BOOK",
+				"categories": [
+					"Child labor"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.3.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=M1lLAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=M1lLAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=M1lLAQAAIAAJ&q=ro&dq=ro&hl=&cd=18&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=M1lLAQAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Report_of_the_Industrial_Commissioner_to.html?hl=&id=M1lLAQAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=M1lLAQAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "135 CO 4 •tl CD H o CD o n -p\\jj <b>ro</b> o CD = 3 3d) w POnoJ M • • • ;r« <b>ro</b> cr&gt; h &#39;)J -p&quot;OJ o • • • • <b>ro</b> -J VjO &lt;«O • • • I -&#39;J M M m <b>ro</b> • • -p&quot;vjO i I 8ejd oion <b>ro</b> • • • • -P*VjJ CPi OQ t-1 1 71 1 I I OJ <b>ro</b> m (XI O CTvM • • • • oa <b>ro</b> tx M&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "YYH4ZwEACAAJ",
+			"etag": "iTKICt0QfVc",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/YYH4ZwEACAAJ",
+			"volumeInfo": {
+				"title": "Variabilidade genética entre progênies de meios irmãos de nabo forrageiro (Raphanus sativus L. var. oleiferus) cultivar CATI AL 1000",
+				"authors": [
+					"R. O. de SÁ"
+				],
+				"publishedDate": "2005",
+				"description": "O presente trabalho de epsquisa teve como objetivo, avaliare a variabilidade genética de nabo forrageiro cultivar CATI AL 1000 poe meio de progênies de maios irmãos, e obterestimativas de parâmetros genéticos para as características: ciclo das plantas, altura das plantas, produtividade de grãos, massa de 100 grãos, e teor de óleo no grão, sendo conduzido na Fazenda da UNESP em São Manuel, campus de Botucatu-SP. foram avaliadas 100 progênies de meio irmãos, distribuídas em Látice tripo 10 x 10, parcialemnte balanceado.",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "OCLC:708564101"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"printType": "BOOK",
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "preview-1.0.0",
+				"language": "pt-BR",
+				"previewLink": "http://books.google.com.br/books?id=YYH4ZwEACAAJ&dq=ro&hl=&cd=19&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=YYH4ZwEACAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Variabilidade_gen%C3%A9tica_entre_prog%C3%AAnies.html?hl=&id=YYH4ZwEACAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=YYH4ZwEACAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "O presente trabalho de epsquisa teve como objetivo, avaliare a variabilidade genética de nabo forrageiro cultivar CATI AL 1000 poe meio de progênies de maios irmãos, e obterestimativas de parâmetros genéticos para as características: ..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "ReuFAAAAIAAJ",
+			"etag": "yEshw2tNg8g",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/ReuFAAAAIAAJ",
+			"volumeInfo": {
+				"title": "Ring-opening Polymerization",
+				"subtitle": "Kinetics, Mechanisms, and Synthesis",
+				"authors": [
+					"James E. McGrath"
+				],
+				"publishedDate": "1985",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UCAL:B4477377"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 416,
+				"printType": "BOOK",
+				"categories": [
+					"Polymerization"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.3.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=ReuFAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=ReuFAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=ReuFAAAAIAAJ&q=ro&dq=ro&hl=&cd=20&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=ReuFAAAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Ring_opening_Polymerization.html?hl=&id=ReuFAAAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=ReuFAAAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "CN S <b>ro ro</b> u rn 33 ••H 33 U-C/3 -U no <b>ro</b> x -h 33 u-w-u tn (N 33 CJ <b>ro</b> o 33 U = 0 U -U II CM 33 U 33 <b>ro</b> cj 33 -H U-W- *r <b>ro</b> O 33 -H U -CO - •H <b>ro</b> O f 33 -H 33 U -CO -U <b>ro</b> 33 U tN S3 U <b>ro</b> O 33 U u-u II CN 33 U <b>ro</b> cj <b>ro</b> X -H 33 U-c/J-cj o&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "powgAQAAMAAJ",
+			"etag": "kET2jhOwY/Y",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/powgAQAAMAAJ",
+			"volumeInfo": {
+				"title": "Federal employee parking and transportation survey",
+				"subtitle": "Washington metropolitan area; v.1--Improvements in public transportation",
+				"publishedDate": "1962",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "NWU:35556031402555"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 512,
+				"printType": "BOOK",
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "2.4.2.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=powgAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=powgAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=powgAQAAMAAJ&q=ro&dq=ro&hl=&cd=21&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=powgAQAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Federal_employee_parking_and_transportat.html?hl=&id=powgAQAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=powgAQAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "(O t— lAMPOJ Ol O ONO H CM .4- oo <b>ro</b>-4- 0\\<b>ro</b> cmvo 00 ir\\inCMroCMOvpoOvir\\CMH H H coco ir\\ <b>ro</b>-4 oo H irv_4 OUM/MAHcOSO\\C\\lCOlAO\\ h r— t— vo co vo «4 irv cm .4 cm co □H H M .4 O isVVOVO O CM OVCO H CM H H <b>ro</b> H rl H i-i H H irv t— cvj i/v&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "PFqwAAAAIAAJ",
+			"etag": "MQgJs1w4lR4",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/PFqwAAAAIAAJ",
+			"volumeInfo": {
+				"title": "Technology Policies and Planning",
+				"publishedDate": "1989",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UCSD:31822004412656"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 148,
+				"printType": "BOOK",
+				"categories": [
+					"Technology and state"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.2.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=PFqwAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=PFqwAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=PFqwAAAAIAAJ&q=ro&dq=ro&hl=&cd=22&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=PFqwAAAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Technology_Policies_and_Planning.html?hl=&id=PFqwAAAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=PFqwAAAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "cm &lt;o in in <b>ro</b> co eo «- «- <b>ro</b> m Nm CO r- &lt;o o .* »* N in cm e CM <b>ro</b> rs. &lt;o <b>ro</b> m «- «- e co o CO in <b>ro</b>. &lt;* e O s* O &lt;0 O in oo n «- t&gt; «- «— «— so e <b>ro</b> in •* in o CM N <b>ro</b> 0&gt; <b>ro ro ro</b> r- «- o e O e <b>ro</b> 0» &lt;o in <b>ro</b> n CM CO N m O o CM CM cm&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "03PNAAAAMAAJ",
+			"etag": "QW7ET2O7mVk",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/03PNAAAAMAAJ",
+			"volumeInfo": {
+				"title": "Biennial Report",
+				"authors": [
+					"Michigan. Department of Natural Resources",
+					"Michigan. Department of Conservation"
+				],
+				"publishedDate": "1961",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UOM:39015067100084"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 274,
+				"printType": "BOOK",
+				"categories": [
+					"Michigan"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.4.4.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=03PNAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=03PNAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=03PNAAAAMAAJ&q=ro&dq=ro&hl=&cd=23&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=03PNAAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Biennial_Report.html?hl=&id=03PNAAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=03PNAAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "nO| Ul <b>ro</b> to o o ror-Qu»oo-Ji-&#39;0 on on on u»| rol OvOOOCOUINlO H 00 H O U*| nOJ Ulj rol Ullf Ul -J co <b>ro</b> O ui on vO Ul • • ~J o col <b>ro</b> oo 90 PJ O i-i o z o o 3 £2 ft 3 ▻1 O ft B B O »- 3 O B 3 ?? 3 rt rt D&gt; ft O ▻1 O 01 11 H i7 H n b&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "pIwbAQAAIAAJ",
+			"etag": "AgnsX77JWKQ",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/pIwbAQAAIAAJ",
+			"volumeInfo": {
+				"title": "Finnish Marine Research",
+				"publishedDate": "1982",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UCSD:31822008949851"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 674,
+				"printType": "BOOK",
+				"categories": [
+					"Oceanography"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "1.3.3.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=pIwbAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=pIwbAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=pIwbAQAAIAAJ&q=ro&dq=ro&hl=&cd=24&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=pIwbAQAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Finnish_Marine_Research.html?hl=&id=pIwbAQAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=pIwbAQAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "on 0 &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; x) &lt;&gt; en - - - - - - - o o o o o oo tn o on 2 o &lt;- Q, ×- - - - - - - - - - - - &amp; ln un <b>ro</b> x 20 <b>ro</b> o - Ovi N N - - - 2 • • • • • • • 00 € 6 e <b>ro</b> rn <b>r o</b> &lt;&gt; &lt;&lt; #* *40 3N - o jo &lt;&gt; E rn &gt; QA - Qo y o O Po o o o o o&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "5QNCAQAAIAAJ",
+			"etag": "mgU4OZilBZE",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/5QNCAQAAIAAJ",
+			"volumeInfo": {
+				"title": "Lesotho Highlands Water Project: I. Project cost studies",
+				"publishedDate": "1986",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "STANFORD:36105070978569"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 326,
+				"printType": "BOOK",
+				"categories": [
+					"Lesotho"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.3.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=5QNCAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=5QNCAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=5QNCAQAAIAAJ&q=ro&dq=ro&hl=&cd=25&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=5QNCAQAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Lesotho_Highlands_Water_Project_I_Projec.html?hl=&id=5QNCAQAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=5QNCAQAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "tO•-tO•-vo*— tOOoi <b>ro ro ro ro</b> ic io io cn cm r^* rs vn <b>ro</b> «ar moo — — «t o * «t cn E &lt; O *-&gt; — oj — *C 01 &lt; O 01 V) 01 m z Q- O. Ot o m &lt; &lt; =3 &gt;ooooooom )«t ooOfvJOvO«- )OincM Lnounroin .*- m «- io m o o o o in o o o o in cm o cn co vo&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "ud9UAAAAMAAJ",
+			"etag": "+ZuQM9rx79I",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/ud9UAAAAMAAJ",
+			"volumeInfo": {
+				"title": "MRC Technical Summary Report",
+				"authors": [
+					"Mathematics Research Center (United States. Army)"
+				],
+				"publishedDate": "1976",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "WISC:89075994715"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 598,
+				"printType": "BOOK",
+				"categories": [
+					"Applied mathematics"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "1.4.4.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=ud9UAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=ud9UAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=ud9UAAAAMAAJ&q=ro&dq=ro&hl=&cd=26&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=ud9UAAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/MRC_Technical_Summary_Report.html?hl=&id=ud9UAAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=ud9UAAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "CM CD rs IO CM CM ~ -hCM O OO O OO T. i i «10&gt;O *4ir&gt; o -J« cm oicsi o OltD CO -no cd <b>ro ro</b> o m CM <b>ro</b> in — CM «« Mr NHH O O O 0 o o 1 I I &lt;o|cm o&gt; rs co m in rs co ▽ o. o •o o » 0&gt; -&lt; CN rs o cm <b>ro</b> o is © <b>ro</b> -o CM O CD m -&lt; « □ MX&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "knNGAAAAMAAJ",
+			"etag": "aetJ3nAll2w",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/knNGAAAAMAAJ",
+			"volumeInfo": {
+				"title": "Foreign Trade Report, with Some Internal Statistics [annual]",
+				"authors": [
+					"Sudan. Maṣlaḥat al-Iḥṣāʼ"
+				],
+				"publishedDate": "1953",
+				"description": "Most tables include comparative statistics for the preceding five years.",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UOM:39015034634769"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 294,
+				"printType": "BOOK",
+				"categories": [
+					"Sudan"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.11.9.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=knNGAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=knNGAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=knNGAAAAMAAJ&q=ro&dq=ro&hl=&cd=27&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=knNGAAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Foreign_Trade_Report_with_Some_Internal.html?hl=&id=knNGAAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=knNGAAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "1 o o *« O <b>ro</b> — O LO -NT TnOT O 00 00 in no a on ui o g in in <b>ro</b> no T on on o V NO In.&#39; PlLO NO V <b>ro</b>&#39; In.&#39; Nf; no. ui in in. on IN iN On 00 o <b>ro</b> no — 2|S On 00 nO L. e O LO o O UI m NT Decemt -II a0-&#39; | = 11 1 1 1 o — o ONO O nO Ul <b>ro</b>&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "ZRHyAAAAMAAJ",
+			"etag": "BcE8KJfrjy8",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/ZRHyAAAAMAAJ",
+			"volumeInfo": {
+				"title": "Acoustics Letters",
+				"publishedDate": "1987",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UOM:39015015985743"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 354,
+				"printType": "BOOK",
+				"categories": [
+					"Acoustical engineering"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.4.2.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=ZRHyAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=ZRHyAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=ZRHyAAAAMAAJ&q=ro&dq=ro&hl=&cd=28&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=ZRHyAAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Acoustics_Letters.html?hl=&id=ZRHyAAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=ZRHyAAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "SP 2 o © o o ^ es o © o © © © CN © o © q © <b>ro</b> tj- CN CN © © © © rs <b>ro</b> CN CN ©viNiO^NNoN^Oj © io roro^inmvI^m^w io ^ ^-HCTnnor^CSin^^N£&gt; © ~h <b>ro</b> t^norir*rj«-Hr-&#39;-&#39;0 00 © ON NroTftfm^Tfro^-<b>ro ro</b> tf <b>ro</b> Noio©No^ioooronqrN in h ri Is;&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "mh9WAAAAMAAJ",
+			"etag": "W5GZ92vo+KE",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/mh9WAAAAMAAJ",
+			"volumeInfo": {
+				"title": "Engineering Experiment Station Report",
+				"authors": [
+					"University of Wisconsin--Madison. Engineering Experiment Station"
+				],
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "WISC:89095048138"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 562,
+				"printType": "BOOK",
+				"categories": [
+					"Engineering"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.4.4.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=mh9WAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=mh9WAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=mh9WAAAAMAAJ&q=ro&dq=ro&hl=&cd=29&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=mh9WAAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Engineering_Experiment_Station_Report.html?hl=&id=mh9WAAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=mh9WAAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "o l/&gt; &lt; u_ LO 0 <b>ro</b> o U3 — CO □a: a: uj 5: O o En 13: ii o ii ii &gt;- . o |ar ii o JD in ii 0 -o o let ii In: 1^ *D &gt;, &lt;o TJ I CM E t T3 id 3 T3 (M □&quot;3 id 00 CO CO m in cn (NJ . — •~3 CQ O. UJ &gt;- i ZD —3 U Q. »— &gt; &lt;_) ZD UJ l_J O UJ «t&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "KXwvAQAAIAAJ",
+			"etag": "LRGZHzpGEsM",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/KXwvAQAAIAAJ",
+			"volumeInfo": {
+				"title": "Perform - A Performance Optimizing Computer Program for Dynamic Systems Subject to Transient Loadings",
+				"authors": [
+					"W. D. Pilkey"
+				],
+				"publishedDate": "1973",
+				"description": "A description and applications of a computer capability for determining the ultimate optimal behavior of a dynamically loaded structural-mechanical system are presented. This capability provides characteristics of the theoretically best, or limiting, design concept according to response criteria dictated by design requirements. Equations of motion of the system in first or second order form include incompletely specified elements whose characteristics are determined in the optimization of one or more performance indices subject to the response criteria in the form of constraints. The system is subject to deterministic transient inputs, and the computer capability is designed to operate with a large linear programming on-the-shelf software package which performs the desired optimization. The report contains user-oriented program documentation in engineering, problem-oriented form. Applications cover a wide variety of dynamics problems including those associated with such diverse configurations as a missile-silo system, impacting freight cars, and an aircraft ride control system.",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "NASA:31769000494818"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 244,
+				"printType": "BOOK",
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.1.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=KXwvAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=KXwvAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=KXwvAQAAIAAJ&q=ro&dq=ro&hl=&cd=30&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=KXwvAQAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Perform_A_Performance_Optimizing_Compute.html?hl=&id=KXwvAQAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=KXwvAQAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "1 • cr o x o|M o M o|M u x o |M ox OX CJ U&gt; CJ «0v4 &gt;X&gt; (NJ 10 <b>ro</b> «O ^ 10 LP 10 «0 10K 10 • »<b>ro</b> o » <b>ro</b> o 0 <b>ro</b> o »ioo »no » <b>ro</b> o *roo » <b>ro</b> o * n0,—Cy^wryj)«CM10&#39;&#39;ru^ - (\\j a:. -* w a. - oaj— t\\)sii X «4 0 No er <b>ro</b> u » <b>ro</b> a (NJ 10 M&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "Xbk6AQAAIAAJ",
+			"etag": "U0Drrm92fAs",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/Xbk6AQAAIAAJ",
+			"volumeInfo": {
+				"title": "Annual Report",
+				"authors": [
+					"California. Employment Training Panel"
+				],
+				"publishedDate": "1994",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "STANFORD:36105112095034"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"printType": "BOOK",
+				"categories": [
+					"Occupational retraining"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.2.2.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=Xbk6AQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=Xbk6AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=Xbk6AQAAIAAJ&q=ro&dq=ro&hl=&cd=31&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=Xbk6AQAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Annual_Report.html?hl=&id=Xbk6AQAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=Xbk6AQAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "E 8 &quot;&gt; N 3 (0 X) is O 0) &quot;O 3 &gt;&gt;&quot;o 2.2 - <b>ro</b> n c a) S, £ E5 H O cn • io • • c c cd g&gt; c 3 cd .5 co o c c 1- E <b>ro ro</b> ~ &lt;hh£ &quot;_! &quot;S &quot;S c 2?h o <b>ro</b> cd &lt;d (5 7s cn P K C c a; c c * o &quot;o 2 o J3 J5 0 CJ c Q. O CL CL or cn 3 CD .£ 1 O .£ ."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "eeX9AAAAMAAJ",
+			"etag": "SMO0E0KtjLo",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/eeX9AAAAMAAJ",
+			"volumeInfo": {
+				"title": "Summary of Minnesota Public Assistance Trends",
+				"publishedDate": "1984",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "MINN:31951P00482926B"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 278,
+				"printType": "BOOK",
+				"categories": [
+					"Public welfare"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.7.9.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=eeX9AAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=eeX9AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=eeX9AAAAMAAJ&q=ro&dq=ro&hl=&cd=32&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=eeX9AAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Summary_of_Minnesota_Public_Assistance_T.html?hl=&id=eeX9AAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=eeX9AAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "<b>ro</b> in <b>ro</b> o OO Cg vO »C IT r- m n •- o&gt; mvo UN ON vo * * tf&lt; □ to m CM •- I I I I is O CM o rg t- m «vO m t— * o * O Cg CD in m m t— t- eg o * O vO CM oil vo m eg «- «cg eg gj ir&gt; t- m o vo vo eg o eg «- t— vo o a »- vo •- in r- &lt; 00 c&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "qcIsAQAAIAAJ",
+			"etag": "i4RYFPhbDgI",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/qcIsAQAAIAAJ",
+			"volumeInfo": {
+				"title": "Energy from Waste",
+				"subtitle": "An Economic Development Opportunity : a Background Report on Senate Bill 1395 of the Joint Committee on Job Development, California State Legislature",
+				"authors": [
+					"California. Legislature. Joint Committee on Job Development"
+				],
+				"publishedDate": "1976",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "STANFORD:36105030284512"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 414,
+				"printType": "BOOK",
+				"categories": [
+					"Energy development"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.7.2.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=qcIsAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=qcIsAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=qcIsAQAAIAAJ&q=ro&dq=ro&hl=&cd=33&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=qcIsAQAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Energy_from_Waste.html?hl=&id=qcIsAQAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=qcIsAQAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "o en oo VO 10 m o vo cn CO m en H m cn o in cn &lt;n H O CM □P G CD c o I CJ &amp; u to fa c o OCOOOOrOOrH CNPlrfCMOOMTHC CO VO CM CO rH CO CN (N in oroo^toincoo vor-r-cNino^j&gt;<b>ro</b> cn in co r- cn <b>ro</b> o cn in CMOOinoorHin COOOCNOO&#39;tfO □H in vo&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "KIhqAAAAMAAJ",
+			"etag": "513ltFpZgYo",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/KIhqAAAAMAAJ",
+			"volumeInfo": {
+				"title": "Bulletin de L'ACELAC",
+				"publishedDate": "2005",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UTEXAS:059172148520105"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 36,
+				"printType": "BOOK",
+				"categories": [
+					"Caribbean Area"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.6.3.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=KIhqAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=KIhqAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=KIhqAAAAMAAJ&pg=PA26-IA4&dq=ro&hl=&cd=34&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=KIhqAAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Bulletin_de_L_ACELAC.html?hl=&id=KIhqAAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=KIhqAAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "Cyi5AAAAIAAJ",
+			"etag": "h/CJXAzgQjg",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/Cyi5AAAAIAAJ",
+			"volumeInfo": {
+				"title": "Measurement and Analysis of Socioeconomic Development",
+				"subtitle": "An Enquiry Into International Indicators of Development and Quantitative Interrelations of Social and Economic Components of Development",
+				"authors": [
+					"Donald V. McGranahan",
+					"Eduardo Pizarro",
+					"Claude Richard"
+				],
+				"publisher": "Geneva : United Nations Research Institute for Social Development",
+				"publishedDate": "1985",
+				"description": "The problem of re-scaling",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "STANFORD:36105040289881"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 532,
+				"printType": "BOOK",
+				"categories": [
+					"Economic development"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.4.4.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=Cyi5AAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=Cyi5AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=Cyi5AAAAIAAJ&q=ro&dq=ro&hl=&cd=35&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=Cyi5AAAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Measurement_and_Analysis_of_Socioeconomi.html?hl=&id=Cyi5AAAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=Cyi5AAAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "co — r- — r» —t —fcro — <b>ro</b> — Q — — • — cm — — • — • **h r» m O jlr-. in ^ <b>ro</b> cm — « g m vo m <b>ro</b> cm -h .-- ,l ^ - j i-w tn m cn en 1 1 S — co — &quot;S — cm — cn — vn — # S cm &lt;o o m <b>ro</b> 8 m _g&gt; Cg g *t O CM _0 -h cm m o &gt; «gf » • ^ cm m <b>ro</b> O&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "NJ0vAAAAYAAJ",
+			"etag": "b1jM3PSuQ3A",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/NJ0vAAAAYAAJ",
+			"volumeInfo": {
+				"title": "Bulletin",
+				"authors": [
+					"Wisconsin. State Planning Board"
+				],
+				"publishedDate": "1936",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "CORNELL:31924071792158"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 466,
+				"printType": "BOOK",
+				"categories": [
+					"Regional planning"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.3.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=NJ0vAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=NJ0vAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=NJ0vAAAAYAAJ&q=ro&dq=ro&hl=&cd=36&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=NJ0vAAAAYAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Bulletin.html?hl=&id=NJ0vAAAAYAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=NJ0vAAAAYAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "... O C. a ncoHOnoNt-^OlalOl^^M()&gt;&#39;•J^«cOlnnco^^co^nOln oot&gt;rHLr)^in&#39;ot&gt;roojt-inoc&gt;o^c&gt;JoJOirtc&gt;oco^wa)^c\\! OtO00rHC0(OOcr3a»lO^^t&gt;LnC0CO 0rHLnOCT&#39;(&gt;JOt&gt;rHLf1M LO rH NHH <b>ro</b> O <b>ro</b> oo &gt;^ ^ to o a&lt; «4&lt; CM CM CM CV CM IO 00 ID CM O CM CM &lt;fl&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "nZZLAAAAYAAJ",
+			"etag": "sh9nFNc6GLA",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/nZZLAAAAYAAJ",
+			"volumeInfo": {
+				"title": "Prevention of Water Pollution by Agriculture and Related Activities",
+				"subtitle": "Proceedings of the FAO Expert Consultation, Santiago, Chile, 20-23 October 1992",
+				"authors": [
+					"Food and Agriculture Organization of the United Nations"
+				],
+				"publisher": "HP Trade",
+				"publishedDate": "1993",
+				"description": "The Expert Consultation dealt with pollution problems, mainly in the Latin America and the Caribbean Region, focusing on an assessment of the extent of water pollution by agriculture and related activities; the understanding of the mechanisms of pollution by agriculture and related activities; and policy, legislation and technical guidelines to prevent agricultural water pollution. Twelve case-studies on Latin America and the Caribbean were presented and discussed, as were 12 technical documents prepared by well-known specialists from developed countries. Four discussion groups were formed: Water Quality Assessment and Protection; Agricultural Chemicals and Activities related to Water Pollution; Policy and Legislation; and Prevention of Water Pollution. An Action Statement was drafted providing recommendations for FAO.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_10",
+						"identifier": "9251033803"
+					},
+					{
+						"type": "ISBN_13",
+						"identifier": "9789251033807"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 368,
+				"printType": "BOOK",
+				"categories": [
+					"Agricultural ecology"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "1.3.1.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=nZZLAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=nZZLAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=nZZLAAAAYAAJ&q=ro&dq=ro&hl=&cd=37&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=nZZLAAAAYAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Prevention_of_Water_Pollution_by_Agricul.html?hl=&id=nZZLAAAAYAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=nZZLAAAAYAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "<b>ro</b> &amp; to to or u. o &lt; _l LU tO 298 Reducing salinization of soil and water by improving irrigation and drainage management. I oo r- <b>ro</b> CM O 00 CD CD 00 00 00 00 oo co en oo oo cn to to <b>ro</b> 00 to CO a (O to (O <b>ro ro</b> co co co co CO CO CO CO&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "7p9hmI2yqv0C",
+			"etag": "hkKoBq9qMHw",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/7p9hmI2yqv0C",
+			"volumeInfo": {
+				"title": "Annual Planning Information",
+				"subtitle": "Fresno SMSA.",
+				"publishedDate": "1983",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "UCLA:31158012589361"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 104,
+				"printType": "BOOK",
+				"categories": [
+					"Employment forecasting"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.3.1.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=7p9hmI2yqv0C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=7p9hmI2yqv0C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=7p9hmI2yqv0C&q=ro&dq=ro&hl=&cd=38&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=7p9hmI2yqv0C&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Annual_Planning_Information.html?hl=&id=7p9hmI2yqv0C"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=7p9hmI2yqv0C&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "turn on c r- to ourr) un eo <b>ro</b>- wortv r on ourro, no c on c co* *- No oxo too o&#39; coo * - c \\do vo - - - or c&gt; so r-i rol to tu vo to c 60 * r * no r + wo r- or, so vo GO GO <b>ro</b>- to to rl : vo to 60 eo or <b>ro ro</b>. on exo co or <b>ro</b> on r- co&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "8SjwAAAAMAAJ",
+			"etag": "FcI58oprnio",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/8SjwAAAAMAAJ",
+			"volumeInfo": {
+				"title": "Summary of Loan Activities",
+				"authors": [
+					"Pennsylvania Industrial Development Authority"
+				],
+				"publishedDate": "1982",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "PSU:000010657140"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 274,
+				"printType": "BOOK",
+				"categories": [
+					"Industrial promotion"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "1.5.5.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=8SjwAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=8SjwAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=8SjwAAAAMAAJ&q=ro&dq=ro&hl=&cd=39&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=8SjwAAAAMAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Summary_of_Loan_Activities.html?hl=&id=8SjwAAAAMAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=8SjwAAAAMAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "+J &gt; 55 O .» . c«t - XI O Ol OI—I o u. i- Ol CM •a en • □O -&lt; Cr- T3 XI r-. _i c • OXI - O 2 •r— O •r- 0) +J- o *J C •<b>r-O</b> o m O • &gt;i VI- •<b>r-O</b> CO £ □i-O 3 * 30 O-o 3 CTIO on OJ «t U • «Sr- z _i □*r- □O en&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "1p06AQAAIAAJ",
+			"etag": "06bjHZRxIkA",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/1p06AQAAIAAJ",
+			"volumeInfo": {
+				"title": "California Fruit & Nut Statistics",
+				"publishedDate": "1974",
+				"industryIdentifiers": [
+					{
+						"type": "OTHER",
+						"identifier": "STANFORD:36105113745694"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 400,
+				"printType": "BOOK",
+				"categories": [
+					"Fruit"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.6.6.0.preview.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=1p06AQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=1p06AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com.br/books?id=1p06AQAAIAAJ&q=ro&dq=ro&hl=&cd=40&source=gbs_api",
+				"infoLink": "http://books.google.com.br/books?id=1p06AQAAIAAJ&dq=ro&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/California_Fruit_Nut_Statistics.html?hl=&id=1p06AQAAIAAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=1p06AQAAIAAJ&hl=&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "I Si g 1- c 01 s- 2 3 O &lt;-&gt; CJ3 i- I- Ol - T3 &gt; o ^ a. p s- u Oi o CO OJ o o o o O CO o o o o LX) IT) o o o o o o ix&gt; cm <b>ro</b> o o o o CM CO LO CM 00 Ol IX) IX) o o o o r~- co r-- o <b>ro</b> in co CM oi ud CM CM o o o o <b>ro</b> cm *f co r— <b>ro</b>&nbsp;..."
+			}
+		}
+	]
+}
