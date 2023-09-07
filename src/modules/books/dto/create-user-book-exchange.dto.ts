@@ -8,7 +8,8 @@ export class CreateUserBookExchangeDto {
   interestBookId: number;
 
   @IsString()
-  targetUserId: string;
+  @IsOptional()
+  targetUserId?: string;
 
   @IsInt()
   @IsOptional()

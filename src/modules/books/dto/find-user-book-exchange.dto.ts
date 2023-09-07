@@ -6,7 +6,4 @@ export class FindUserBookExchangeDto {
 
   @IsInt()
   interestBookId: number;
-
-  @IsString()
-  targetUserId: string;
 }
