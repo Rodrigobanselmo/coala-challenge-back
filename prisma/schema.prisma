@@ -9,25 +9,23 @@ generator client {
 }
 
 model User {
-  id               Int              @id @default(autoincrement())
-  email            String           @unique
-  name             String?
-  photoUrl         String?
-  googleExternalId String?
-  createdAt        DateTime         @default(now())
-  updatedAt        DateTime         @updatedAt
-  deletedAt        DateTime?
-  userBooks        UsersBooks[]
-  userOfferts      UsersInterests[] @relation("TargetUser")
-  userInterests    UsersInterests[] @relation("InteretUser")
+  id            String              @id @default(uuid())
+  email         String              @unique
+  name          String?
+  photoUrl      String?
+  createdAt     DateTime            @default(now())
+  updatedAt     DateTime            @updatedAt
+  deletedAt     DateTime?
+  userBooks     UsersBooks[]
+  userExchanges UsersBookExchange[] @relation("TargetUser")
+  userInterests UsersBookExchange[] @relation("InteretUser")
 
   @@index([email])
-  @@index([googleExternalId])
 }
 
 model Book {
-  id             Int              @id @default(autoincrement())
-  title          String           @unique
+  id             Int                 @id @default(autoincrement())
+  title          String              @unique
   language       String?
   smallThumbnail String?
   thumbnail      String?
@@ -36,41 +34,41 @@ model Book {
   pageCount      Int?
   googleId       String?
   publishedAt    DateTime?
-  createdAt      DateTime         @default(now())
-  updatedAt      DateTime         @updatedAt
+  createdAt      DateTime            @default(now())
+  updatedAt      DateTime            @updatedAt
   deletedAt      DateTime?
   usersBook      UsersBooks[]
-  userOfferts    UsersInterests[] @relation("OfferBook")
-  userInterests  UsersInterests[] @relation("InteretBook")
+  userAsking     UsersBookExchange[] @relation("AskingBook")
+  userInterests  UsersBookExchange[] @relation("InteretBook")
 
-  @@index([googleId])
+  @@index([title])
 }
 
 model UsersBooks {
-  id            Int              @id @default(autoincrement())
-  book          Book             @relation(fields: [bookId], references: [id])
-  bookId        Int
-  user          User             @relation(fields: [userId], references: [id])
-  userId        Int
-  createdAt     DateTime         @default(now())
-  updatedAt     DateTime         @updatedAt
-  deletedAt     DateTime?
-  usersInterest UsersInterests[]
+  id             Int                 @id @default(autoincrement())
+  book           Book                @relation(fields: [bookId], references: [id])
+  bookId         Int
+  user           User                @relation(fields: [userId], references: [id])
+  userId         String
+  createdAt      DateTime            @default(now())
+  updatedAt      DateTime            @updatedAt
+  deletedAt      DateTime?
+  usersExchanges UsersBookExchange[]
 
   @@unique([bookId, userId])
 }
 
-model UsersInterests {
-  id             Int  @id @default(autoincrement())
-  targetUser     User @relation("TargetUser", fields: [targetUserId], references: [id])
-  targetUserId   Int
-  interestBook   Book @relation("InteretBook", fields: [interestBookId], references: [id])
+model UsersBookExchange {
+  id             Int    @id @default(autoincrement())
+  targetUser     User   @relation("TargetUser", fields: [targetUserId], references: [id])
+  targetUserId   String
+  interestBook   Book   @relation("InteretBook", fields: [interestBookId], references: [id])
   interestBookId Int
 
-  interetUser   User @relation("InteretUser", fields: [interetUserId], references: [id])
-  interetUserId Int
-  offerBook     Book @relation("OfferBook", fields: [offerBookId], references: [id])
-  offerBookId   Int
+  interetUser   User   @relation("InteretUser", fields: [interetUserId], references: [id])
+  interetUserId String
+  askingBook    Book   @relation("AskingBook", fields: [askingBookId], references: [id])
+  askingBookId  Int
 
   userBookInterest UsersBooks @relation(fields: [interestBookId, targetUserId], references: [bookId, userId])
 
