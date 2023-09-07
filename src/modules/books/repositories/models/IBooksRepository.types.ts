@@ -6,7 +6,10 @@ import { FindUsersBooksDto } from '../../dto/find-users-books.dto';
 
 interface IBooksRepository {
   create(bookDto: CreateBookDto): Promise<BookEntity>;
-  find(dto: FindBooksDto): Promise<IPaginationReturn<BookEntity>>;
+  find(
+    dto: FindBooksDto,
+    userId: string,
+  ): Promise<IPaginationReturn<BookEntity>>;
   findByGoogleId(id: string): Promise<BookEntity>;
   findByUserId(
     userId: string,

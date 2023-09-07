@@ -12,11 +12,17 @@ import { FindUsersBooksDto } from '../../dto/find-users-books.dto';
 export class BooksRepository implements IBooksRepository {
   constructor(private prisma: PrismaService) {}
 
-  async find({ limit = 20, page = 1, search }: FindBooksDto) {
+  async find({ limit = 20, page = 1, search }: FindBooksDto, userId: string) {
     const where: Prisma.BookFindManyArgs['where'] = {
-      // usersBook: {
-      //   some: { deletedAt: null, id: { gt: 0 } },
-      // },
+      usersBook: {
+        some: {
+          deletedAt: null,
+          id: { gt: 0 },
+          ...(userId && {
+            userId: { not: userId },
+          }),
+        },
+      },
     };
 
     if (search) {
@@ -77,6 +83,10 @@ export class BooksRepository implements IBooksRepository {
     const book = await this.prisma.book.findFirst({
       where: { googleId: id },
     });
+
+    if (!book) {
+      return null;
+    }
 
     return new BookEntity(book);
   }

@@ -8,6 +8,7 @@ import { UsersBooksExchangeEntity } from '../../entities/user-book-exchange.enti
 import { FindUserBookExchangeDto } from '../../dto/find-user-book-exchange.dto';
 import { Prisma } from '@prisma/client';
 import { BookEntity } from '../../entities/book.entity';
+import { UserEntity } from 'src/modules/auth/entities/user.entity';
 
 @Injectable()
 export class UsersBooksExchangeRepository
@@ -61,13 +62,12 @@ export class UsersBooksExchangeRepository
     userId: string,
     { search, page, limit }: FindUsersBooksExchangeDto,
   ) {
-    const whereUserInterest: Prisma.UsersBookExchangeFindManyArgs['where'] = {
-      status: { not: 'CANCELED' },
+    const where: Prisma.UsersBookExchangeFindManyArgs['where'] = {
       OR: [{ interetUserId: userId }, { targetUserId: userId }],
     };
 
     if (search) {
-      whereUserInterest.AND = [
+      where.AND = [
         {
           OR: [
             {
@@ -85,23 +85,33 @@ export class UsersBooksExchangeRepository
       ];
     }
 
-    const where: Prisma.BookFindManyArgs['where'] = {
-      userInterests: { some: whereUserInterest },
-    };
-
     const response = await this.prisma.$transaction([
-      this.prisma.book.count({
+      this.prisma.usersBookExchange.count({
         where,
       }),
-      this.prisma.book.findMany({
+      this.prisma.usersBookExchange.findMany({
         where,
         select: {
-          id: true,
-          authors: true,
-          title: true,
-          thumbnail: true,
-          userInterests: {
-            where: whereUserInterest,
+          status: true,
+          interetUserId: true,
+          targetUserId: true,
+          interetUser: true,
+          targetUser: true,
+          askingBook: {
+            select: {
+              title: true,
+              thumbnail: true,
+              authors: true,
+              id: true,
+            },
+          },
+          interestBook: {
+            select: {
+              title: true,
+              thumbnail: true,
+              authors: true,
+              id: true,
+            },
           },
         },
         take: limit,
@@ -111,21 +121,36 @@ export class UsersBooksExchangeRepository
     ]);
 
     return {
-      data: response[1].map((book) => new BookEntity(book)),
+      data: response[1].map(
+        (book) =>
+          new UsersBooksExchangeEntity({
+            ...book,
+            interetUser: new UserEntity(book.interetUser),
+            targetUser: new UserEntity(book.targetUser),
+            askingBook: book.askingBook
+              ? new BookEntity(book.askingBook)
+              : null,
+            interestBook: new BookEntity(book.interestBook),
+          }),
+      ),
       count: response[0],
     };
   }
 
   async findByUsersBooksIds(
     dto: FindUserBookExchangeDto,
-  ): Promise<UsersBooksExchangeEntity> {
+  ): Promise<UsersBooksExchangeEntity | null> {
     const exchange = await this.prisma.usersBookExchange.findFirst({
       where: {
         interestBookId: dto.interestBookId,
         interetUserId: dto.interetUserId,
-        targetUserId: dto.targetUserId,
+        status: 'PENDING',
       },
     });
+
+    if (!exchange) {
+      return null;
+    }
 
     return new UsersBooksExchangeEntity(exchange);
   }
