@@ -1,38 +1,34 @@
 import { LoginGoogleUserDto } from '../../dto/login-user.dto';
 import { BadRequestException, Injectable } from '@nestjs/common';
-import { ErrorAuthEnum } from '../../../../shared/constants/enums/errorMessage';
+import { ErrorEnum } from '../../../../shared/constants/enums/errorMessage';
 import { IUsersRepository } from '../../repositories/models/IUsersRepository.types';
-import { IFirebaseProvider } from '../../../../shared/providers/FirebaseProvider/models/IFirebaseProvider.types';
+import { IJwtProvider } from '../../../../shared/providers/JwtProvider/models/IJwtProvider.types';
 // import { UsersRepository } from '../../repositories/implementations/UsersRepository';
 
 @Injectable()
 export class GoogleLoginUseCase {
   constructor(
     private readonly usersRepository: IUsersRepository,
-    private readonly firebaseProvider: IFirebaseProvider,
+    private readonly jwtProvider: IJwtProvider,
   ) {}
 
-  async execute({ googleToken }: LoginGoogleUserDto) {
+  async execute({ token }: LoginGoogleUserDto) {
     try {
-      const result =
-        await this.firebaseProvider.validateGoogleToken(googleToken);
+      const result = await this.jwtProvider.validateToken(token);
 
-      let user = await this.usersRepository.findByGoogleExternalId(
-        result.user.uid,
-      );
-
+      let user = await this.usersRepository.findById(result.uid);
       if (!user?.id) {
         user = await this.usersRepository.create({
-          email: result.user.email,
-          googleExternalId: result.user.uid,
-          photoUrl: result.user.photoURL,
-          name: result.user.displayName,
+          email: result.email,
+          id: result.uid,
+          photoUrl: result.photoURL,
+          name: result.displayName,
         });
       }
 
       return user;
     } catch (error) {
-      throw new BadRequestException(ErrorAuthEnum.GOOGLE_USER_ERROR);
+      throw new BadRequestException(ErrorEnum.GOOGLE_USER_ERROR);
     }
   }
 }
