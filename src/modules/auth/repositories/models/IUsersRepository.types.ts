@@ -3,7 +3,7 @@ import { UserEntity } from '../../entities/user.entity';
 
 interface IUsersRepository {
   create(userDto: UserDto): Promise<UserEntity>;
-  update(id: number, userDto: UserDto): Promise<UserEntity>;
-  findByGoogleExternalId(googleId: string): Promise<UserEntity | null>;
+  update(id: string, userDto: UserDto): Promise<UserEntity>;
+  findById(id: string): Promise<UserEntity | null>;
 }
 export { IUsersRepository };

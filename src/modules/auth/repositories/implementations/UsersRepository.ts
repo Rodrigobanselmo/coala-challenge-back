@@ -1,16 +1,16 @@
 import { Injectable } from '@nestjs/common';
-import { IUsersRepository } from '../models/IUsersRepository.types';
+import { PrismaService } from '../../../../prisma/prisma.service';
 import { UserDto } from '../../dto/user.dto';
 import { UserEntity } from '../../entities/user.entity';
-import { PrismaService } from '../../../../prisma/prisma.service';
+import { IUsersRepository } from '../models/IUsersRepository.types';
 
 @Injectable()
 export class UsersRepository implements IUsersRepository {
   constructor(private prisma: PrismaService) {}
 
-  async findByGoogleExternalId(id: string) {
+  async findById(id: string) {
     const user = await this.prisma.user.findFirst({
-      where: { googleExternalId: id },
+      where: { id },
     });
 
     if (!user) return null;
@@ -26,7 +26,7 @@ export class UsersRepository implements IUsersRepository {
     return new UserEntity(user);
   }
 
-  async update(id: number, userDto: UserDto): Promise<UserEntity> {
+  async update(id: string, userDto: UserDto): Promise<UserEntity> {
     const user = await this.prisma.user.update({
       where: { id },
       data: userDto,

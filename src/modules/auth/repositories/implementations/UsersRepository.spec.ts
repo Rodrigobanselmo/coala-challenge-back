@@ -32,13 +32,12 @@ describe('UsersRepository', () => {
   describe('findByGoogleExternalId', () => {
     it('should find and return a user entity', async () => {
       const mockUser = {
-        id: 1,
-        googleExternalId: 'some-id',
+        id: '1',
       };
 
       (prismaService.user.findFirst as jest.Mock).mockResolvedValue(mockUser);
 
-      const result = await usersRepository.findByGoogleExternalId('some-id');
+      const result = await usersRepository.findById('some-id');
 
       expect(result).toEqual(new UserEntity(mockUser));
     });
@@ -46,8 +45,7 @@ describe('UsersRepository', () => {
     it('should return null if no user is found', async () => {
       (prismaService.user.findFirst as jest.Mock).mockResolvedValue(null);
 
-      const result =
-        await usersRepository.findByGoogleExternalId('non-existing-id');
+      const result = await usersRepository.findById('non-existing-id');
 
       expect(result).toBeNull();
     });
@@ -56,14 +54,14 @@ describe('UsersRepository', () => {
   describe('create', () => {
     it('should create and return a new user entity', async () => {
       const mockUserDto: UserDto = {
-        email: '',
-        googleExternalId: '',
-        name: '',
-        photoUrl: '',
+        email: 'fake_id',
+        name: 'fake_id',
+        photoUrl: 'fake_id',
+        id: 'fake_id',
       };
 
       const mockCreatedUser = {
-        id: 1,
+        id: 'fake_id',
       };
 
       (prismaService.user.create as jest.Mock).mockResolvedValue(
@@ -78,10 +76,10 @@ describe('UsersRepository', () => {
 
   describe('update', () => {
     it('should update and return the updated user entity', async () => {
-      const userId = 1;
+      const userId = 'fake_id';
       const mockUserDto: UserDto = {
         email: '',
-        googleExternalId: '',
+        id: 'fake_id',
         name: '',
         photoUrl: '',
       };
