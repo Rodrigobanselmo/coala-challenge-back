@@ -32,8 +32,14 @@ export class BooksController {
 
   @Public()
   @Get('')
-  async find(@Query() findBooksDto: FindBooksDto) {
-    const books = await this.findBooksUseCase.execute(findBooksDto);
+  async find(
+    @User() userPayloadDto: UserPayloadDto,
+    @Query() findBooksDto: FindBooksDto,
+  ) {
+    const books = await this.findBooksUseCase.execute(
+      userPayloadDto,
+      findBooksDto,
+    );
 
     return books;
   }

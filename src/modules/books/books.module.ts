@@ -14,6 +14,8 @@ import { CreateUserBooksUseCase } from './useCases/books/create-user-books';
 import { UsersBooksExchangeRepository } from './repositories/implementations/UsersBooksExchangeRepository';
 import { CreateBookExchangeUseCase } from './useCases/books-exchange/create-book-exchange';
 import { IUsersBookExchangeRepository } from './repositories/models/IUsersBookExchangeRepository.types';
+import { FindBooksExchangeUseCase } from './useCases/books-exchange/find-books-exchange';
+import { BooksExchangeController } from './controller/books-exchange/books-exchange.controller';
 
 const FindBooksUseCaseProvider = {
   provide: FindUserBooksUseCase,
@@ -56,9 +58,17 @@ const CreateBookExchangeUseCaseProvider = {
   inject: [UsersBooksExchangeRepository, UsersBooksRepository],
 };
 
+const FindBooksExchangeUseCaseProvider = {
+  provide: FindBooksExchangeUseCase,
+  useFactory: (usersBookExchangeRepository: IUsersBookExchangeRepository) => {
+    return new FindBooksExchangeUseCase(usersBookExchangeRepository);
+  },
+  inject: [UsersBooksExchangeRepository, UsersBooksRepository],
+};
+
 @Module({
   imports: [HttpModule, CacheModule.register()],
-  controllers: [BooksController],
+  controllers: [BooksController, BooksExchangeController],
   providers: [
     SearchAllBooksUseCase,
     BooksRepository,
@@ -68,6 +78,7 @@ const CreateBookExchangeUseCaseProvider = {
     FindUserBooksUseCaseProvider,
     CreateUserBooksUseCaseProvider,
     CreateBookExchangeUseCaseProvider,
+    FindBooksExchangeUseCaseProvider,
   ],
 })
 export class BooksModule {}
