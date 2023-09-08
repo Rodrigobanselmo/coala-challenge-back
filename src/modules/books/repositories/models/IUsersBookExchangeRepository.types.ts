@@ -1,4 +1,4 @@
-import { IPaginationReturn } from 'src/shared/interfaces/IPaginationResponse';
+import { IPaginationReturn } from '../../../../shared/interfaces/IPaginationResponse';
 import { CreateUserBookExchangeDto } from '../../dto/create-user-book-exchange.dto';
 import { FindUserBookExchangeDto } from '../../dto/find-user-book-exchange.dto';
 import { FindUsersBooksExchangeDto } from '../../dto/find-users-books-exchange.dto';

@@ -13,19 +13,19 @@ import { FindUserByIdUseCase } from '../../useCases/find-user-by-id';
 export class AuthController {
   constructor(
     private readonly googleLoginUseCase: GoogleLoginUseCase,
-    private readonly findUserByGoogleIdUseCase: FindUserByIdUseCase,
+    private readonly findUserByIdUseCase: FindUserByIdUseCase,
   ) {}
 
   @Get('me')
   async findMe(@User() userPayloadDto: UserPayloadDto) {
-    return this.findUserByGoogleIdUseCase.execute({
+    return this.findUserByIdUseCase.execute({
       id: userPayloadDto.id,
     });
   }
 
   @Public()
   @Post('session/google')
-  async google(@Body() loginUserDto: LoginGoogleUserDto) {
+  async googleLogin(@Body() loginUserDto: LoginGoogleUserDto) {
     const user = await this.googleLoginUseCase.execute(loginUserDto);
 
     return user;

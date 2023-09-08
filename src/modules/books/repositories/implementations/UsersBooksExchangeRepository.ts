@@ -8,7 +8,7 @@ import { UsersBooksExchangeEntity } from '../../entities/user-book-exchange.enti
 import { FindUserBookExchangeDto } from '../../dto/find-user-book-exchange.dto';
 import { Prisma } from '@prisma/client';
 import { BookEntity } from '../../entities/book.entity';
-import { UserEntity } from 'src/modules/auth/entities/user.entity';
+import { UserEntity } from '../../../../modules/auth/entities/user.entity';
 
 @Injectable()
 export class UsersBooksExchangeRepository

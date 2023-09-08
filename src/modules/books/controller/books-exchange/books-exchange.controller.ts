@@ -41,30 +41,4 @@ export class BooksExchangeController {
 
     return books;
   }
-
-  // @Post('add-asking-book')
-  // async addAskBooking(
-  //   @User() userPayloadDto: UserPayloadDto,
-  //   @Body() createBookDto: CreateBookDto,
-  // ) {
-  //   const books = await this.createUserBooksUseCase.execute(
-  //     userPayloadDto,
-  //     createBookDto,
-  //   );
-
-  //   return books;
-  // }
-
-  // @Post('confirm-exchange')
-  // async confirmExchange(
-  //   @User() userPayloadDto: UserPayloadDto,
-  //   @Body() createBookDto: CreateBookDto,
-  // ) {
-  //   const books = await this.createUserBooksUseCase.execute(
-  //     userPayloadDto,
-  //     createBookDto,
-  //   );
-
-  //   return books;
-  // }
 }

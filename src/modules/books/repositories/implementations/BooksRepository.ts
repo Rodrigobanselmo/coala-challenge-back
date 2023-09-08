@@ -5,7 +5,7 @@ import { BookEntity } from '../../entities/book.entity';
 import { PrismaService } from '../../../../prisma/prisma.service';
 import { FindBooksDto } from '../../dto/find-books.dto';
 import { Prisma } from '@prisma/client';
-import { IPaginationReturn } from 'src/shared/interfaces/IPaginationResponse';
+import { IPaginationReturn } from '../../../../shared/interfaces/IPaginationResponse';
 import { FindUsersBooksDto } from '../../dto/find-users-books.dto';
 
 @Injectable()

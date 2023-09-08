@@ -9,12 +9,12 @@ export class FindUserByIdUseCase {
   constructor(private readonly usersRepository: IUsersRepository) {}
 
   async execute({ id }: FindUserByIdDto) {
-    try {
-      const user = await this.usersRepository.findById(id);
+    const user = await this.usersRepository.findById(id);
 
-      return user;
-    } catch (error) {
+    if (!user) {
       throw new BadRequestException(ErrorEnum.FIND_USER_ERROR);
     }
+
+    return user;
   }
 }

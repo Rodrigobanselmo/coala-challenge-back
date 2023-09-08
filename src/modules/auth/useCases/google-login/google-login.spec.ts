@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { BadRequestException } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import { FirebaseProvider } from '../../../../shared/providers/JwtProvider/implementations/FirebaseProvider';
@@ -32,14 +31,14 @@ describe('GoogleLoginUseCase', () => {
         {
           provide: UsersRepository,
           useValue: {
-            findByGoogleExternalId: jest.fn(),
+            findById: jest.fn(),
             create: jest.fn(),
           },
         },
         {
           provide: FirebaseProvider,
           useValue: {
-            validateGoogleToken: jest.fn(),
+            validateToken: jest.fn(),
           },
         },
       ],
@@ -82,16 +81,16 @@ describe('GoogleLoginUseCase', () => {
       expect(validateSpy).toHaveBeenCalledWith(mockGoogleToken);
     });
 
-    it('should call usersRepository.findByGoogleExternalId if user exists', async () => {
+    it('should call usersRepository.findById if user exists', async () => {
       jest.spyOn(jwtProvider, 'validateToken').mockResolvedValue(mockUser);
 
-      const findByGoogleExternalIdSpy = jest
+      const findByIdSpy = jest
         .spyOn(usersRepository, 'findById')
         .mockResolvedValue(mockEntityUser);
 
       await googleLoginUseCase.execute(mockLoginGoogleUserDto);
 
-      expect(findByGoogleExternalIdSpy).toHaveBeenCalledWith(mockUser.uid);
+      expect(findByIdSpy).toHaveBeenCalledWith(mockUser.uid);
     });
 
     it('should call usersRepository.create if user does not exist', async () => {
@@ -126,7 +125,7 @@ describe('GoogleLoginUseCase', () => {
     it('should throw BadRequestException if there is an error', async () => {
       jest
         .spyOn(jwtProvider, 'validateToken')
-        .mockRejectedValue(new Error('Google validation error'));
+        .mockRejectedValue(new BadRequestException('Google validation error'));
 
       await expect(
         googleLoginUseCase.execute(mockLoginGoogleUserDto),

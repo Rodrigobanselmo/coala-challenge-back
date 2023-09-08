@@ -24,10 +24,10 @@ describe('FirebaseProvider', () => {
     expect(provider).toBeDefined();
   });
 
-  describe('validateGoogleToken', () => {
+  describe('validateToken', () => {
     it('should validate a token successfully', async () => {
       const mockCredential = {};
-      const mockSignInResult = {};
+      const mockSignInResult = { user: {} };
       const mockToken = 'mockToken';
 
       (GoogleAuthProvider.credential as jest.Mock).mockReturnValue(
@@ -35,9 +35,9 @@ describe('FirebaseProvider', () => {
       );
       (signInWithCredential as jest.Mock).mockResolvedValue(mockSignInResult);
 
-      const result = await provider.validateGoogleToken(mockToken);
+      const result = await provider.validateToken(mockToken);
 
-      expect(result).toBe(mockSignInResult);
+      expect(result).toBe(mockSignInResult.user);
     });
 
     it('should throw an InternalServerErrorException if signInWithCredential fails', async () => {
@@ -46,7 +46,7 @@ describe('FirebaseProvider', () => {
         message: mockErrorMessage,
       });
 
-      await expect(provider.validateGoogleToken('mockToken')).rejects.toThrow(
+      await expect(provider.validateToken('mockToken')).rejects.toThrow(
         new InternalServerErrorException(mockErrorMessage),
       );
     });
